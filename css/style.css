@@ -1,0 +1,82 @@
+
+/* google font imported here */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+/* full body design */
+ body{
+    background-color:antiquewhite;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* heading */
+.headings{
+    margin: 50px auto;
+    color: rgb(104, 124, 104);
+    font-weight:bold;
+    text-transform: capitalize;
+}
+
+    
+
+/* input and button Customization */
+
+
+.search-box{
+    background-color: rgb(219, 216, 216);
+    width: 50%;
+    outline: none;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    margin:50px auto;
+    display: flex;
+    box-shadow: 1px 1px 10px #80808042;
+
+}
+.search-box:hover{
+    box-shadow: 1px 1px 10px #808080ef;
+
+}
+
+
+/* input */
+.search-input{
+    background-color:rgb(219, 216, 216);
+    outline: none;
+    border: none;
+    width: 90%;
+    color:rgb(7, 2, 51);
+}
+/* search icon */
+.search-icon{
+ width: 10%;
+ font-size: 24px;
+ color:#113a74;
+ 
+}
+
+
+
+/* serch result option  */
+.image-cover{
+    cursor: pointer;
+}
+
+.name{
+    font-size: 25px;
+}
+
+.writer{
+    font-size: 18px;
+}
+.date{
+    font-size: 15px;
+}
+.image-div{
+    padding: 5px;
+}
+.card-body{
+    padding: 2rem 1rem;
+}
